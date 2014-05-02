@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{8955057D-75BA-52B7-C3DD-DE78F8CC2DD0}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-UnityScript</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_WEBPLAYER;WEBPLUG;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_GENERICS;ENABLE_SUBSTANCE;INCLUDE_WP8SUPPORT;ENABLE_MOVIES;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_DUCK_TYPING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;UNITY_4_3_2;UNITY_4_3;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>/Applications/Unity/Unity.app/Contents/Frameworks/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Deal.js" />
+     <Compile Include="Assets\Scripts\Family\Family.js" />
+     <Compile Include="Assets\Scripts\FeatureCard.js" />
+     <Compile Include="Assets\Scripts\Gentleman.js" />
+     <Compile Include="Assets\Scripts\GrandBall.js" />
+     <Compile Include="Assets\Scripts\Hearts\GManHeart.js" />
+     <Compile Include="Assets\Scripts\Hearts\PlayerHeart.js" />
+     <Compile Include="Assets\Scripts\Highlight.js" />
+     <Compile Include="Assets\Scripts\Highlight2.js" />
+     <Compile Include="Assets\Scripts\Loser.js" />
+     <Compile Include="Assets\Scripts\Married.js" />
+     <Compile Include="Assets\Scripts\Master.js" />
+     <Compile Include="Assets\Scripts\PlayCard.js" />
+     <Compile Include="Assets\Scripts\Player.js" />
+     <Compile Include="Assets\Scripts\Playlist.js" />
+     <Compile Include="Assets\Scripts\SocietyCard.js" />
+     <Compile Include="Assets\Scripts\SocietyCards\0_LoveCard.js" />
+     <Compile Include="Assets\Scripts\SocietyCards\10_Prejudice.js" />
+     <Compile Include="Assets\Scripts\SocietyCards\11_Persuasion.js" />
+     <Compile Include="Assets\Scripts\SocietyCards\12_RegimentalDistraction.js" />
+     <Compile Include="Assets\Scripts\SocietyCards\13_SuspiciousAbsence.js" />
+     <Compile Include="Assets\Scripts\SocietyCards\14_Confusion.js" />
+     <Compile Include="Assets\Scripts\SocietyCards\15_Whispers.js" />
+     <Compile Include="Assets\Scripts\SocietyCards\16_ScandalousRumours.js" />
+     <Compile Include="Assets\Scripts\SocietyCards\17_Revelation.js" />
+     <Compile Include="Assets\Scripts\SocietyCards\18_Storm.js" />
+     <Compile Include="Assets\Scripts\SocietyCards\19_CourtOfStJames.js" />
+     <Compile Include="Assets\Scripts\SocietyCards\1_Intervene.js" />
+     <Compile Include="Assets\Scripts\SocietyCards\2_Oppose.js" />
+     <Compile Include="Assets\Scripts\SocietyCards\3_Inquire.js" />
+     <Compile Include="Assets\Scripts\SocietyCards\4_Rejection.js" />
+     <Compile Include="Assets\Scripts\SocietyCards\5_Friends.js" />
+     <Compile Include="Assets\Scripts\SocietyCards\6_GentlemanCaller.js" />
+     <Compile Include="Assets\Scripts\SocietyCards\7_DrunkenDeclaration.js" />
+     <Compile Include="Assets\Scripts\SocietyCards\8_Suggestion.js" />
+     <Compile Include="Assets\Scripts\SocietyCards\9_GrandWedding.js" />
+     <Compile Include="Assets\Scripts\Suggestion.js" />
+     <Compile Include="Assets\Scripts\Text Labels\FamilyLabel.js" />
+     <Compile Include="Assets\Scripts\Text Labels\GLabel.js" />
+     <Compile Include="Assets\Scripts\Text Labels\Label1.js" />
+     <Compile Include="Assets\Scripts\Text Labels\Label2.js" />
+     <Compile Include="Assets\Scripts\Text Labels\Label3.js" />
+     <Compile Include="Assets\Scripts\Text Labels\ObjectLabel.js" />
+     <Compile Include="Assets\Scripts\Winning.js" />
+     <Compile Include="Assets\StartGame.js" />
+     <Compile Include="Assets\splash.js" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
